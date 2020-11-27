@@ -3,11 +3,11 @@
 ## ***1. *args và \**kwargs dùng để làm gì ? ***
 - Khi khai báo hàm sử dụng *args và \**kwargs cho phép truyền nhiều tham số mà không cần biết trước số lượng của tham số.  
 Ví dụ    
-`>// giả sử tham số truyền vào đều là số  
- >def sum(*arg):  
-     >total = 0  
-    >for number in args:  
-       >total += number  
+`\t// giả sử tham số truyền vào đều là số  
+ \tdef sum(*arg):  
+     \ttotal = 0  
+    \tfor number in args:  
+       \ttotal += number  
     >return local  
   >// gọi hàm   
   >sum(1,2, 3, 19)  
