@@ -1,5 +1,5 @@
 # Tham số dạng *args và **kwargs trong python
-## **1. *args và \**kwargs dùng để làm gì ? **
+## 1. *args và \**kwargs dùng để làm gì ? 
 - Khi khai báo hàm sử dụng *args và \**kwargs cho phép truyền nhiều tham số mà không cần biết trước số lượng của tham số.  
 Ví dụ    
 ```py
@@ -13,7 +13,7 @@ Ví dụ
   sum(1,2, 3, 19)  
   sum(1, 100)
   ```  
-## **2. *args và \**kwargs khác gì nhau? **  
+## 2. *args và \**kwargs khác gì nhau?  
 - Khi gọi hàm trong python có 2 kiểu truyền tham số :  
     - Truyền tham số theo theo tên.  
     - Truyền tham số bình thường theo thứ tự khai báo đối số.  
@@ -25,8 +25,8 @@ def register(name, password):
  // Truyền tham số theo tên, không cần phải theo thứ tự khai báo tham số  
  register(password='cookHim', name='skype')  
  ```  
- - *args nhận các tham số truyền bình thường. Sử dụng args như một list.  
- - \**kwargs nhận tham số truyền theo tên. Sử dụng kwargs như một dictionary.  
+ - *args nhận các tham số truyền bình thường. Sử dụng args như một list.    
+ - \**kwargs nhận tham số truyền theo tên. Sử dụng kwargs như một dictionary.    
  Ví dụ  
  ```py
  def test_args(*args):  
@@ -43,10 +43,10 @@ def register(name, password):
     age = 10  
     name = Dzung  
   ```  
- ## **3. Thứ tự sử dụng và truyền tham số *args, \**kwargs và tham số bình thường **  
+ ## 3. Thứ tự sử dụng và truyền tham số *args, \**kwargs và tham số bình thường   
  Khi sử dụng bắt buộc phải khai báo đối số theo đúng thứ tự  
- ` *** đối số xác định --> *args --> \**kwargs ***   `
- ` *** Khi sử dụng cả *args và \**kwargs không thể truyền tham số bình thường theo tên ***   `
+    - Đối số xác định --> *args --> \**kwargs `
+    - Khi sử dụng cả *args và \**kwargs không thể truyền tham số bình thường theo tên 
  Ví dụ    
  ```py 
  def show_detail(name, *args, **kwargs):  
