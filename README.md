@@ -46,7 +46,7 @@ def register(name, password):
  ## 3. Thứ tự sử dụng và truyền tham số *args, \**kwargs và tham số bình thường   
  Khi sử dụng bắt buộc phải khai báo đối số theo đúng thứ tự  
     - Đối số xác định --> *args --> \**kwargs  
-    - Khi sử dụng cả *args và \**kwargs không thể truyền tham số bình thường theo tên 
+    - Khi sử dụng cả *args và \**kwargs không thể truyền tham số bình thường theo tên  
  Ví dụ    
  ```py 
  def show_detail(name, *args, **kwargs):  
