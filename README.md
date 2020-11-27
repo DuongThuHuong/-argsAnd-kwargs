@@ -1,17 +1,17 @@
 # -argsAnd-kwargs
 # Tham số dạng *args và **kwargs trong python
 ## ***1. *args và \**kwargs dùng để làm gì ? ***
-- Khi khai báo hàm sử dụng *args và \**kwargs cho phép truyền nhiều tham số mà không cần biết trước số lượng của tham số.
-Ví dụ  
-`// giả sử tham số truyền vào đều là số  
- def sum(*arg):  
-    total = 0  
-    for number in args:  
-      total += number  
-    return local  
-  // gọi hàm   
-  sum(1,2, 3, 19)  
-  sum(1, 100)  `  
+- Khi khai báo hàm sử dụng *args và \**kwargs cho phép truyền nhiều tham số mà không cần biết trước số lượng của tham số.  
+Ví dụ    
+`>// giả sử tham số truyền vào đều là số  
+ >def sum(*arg):  
+     >total = 0  
+    >for number in args:  
+       >total += number  
+    >return local  
+  >// gọi hàm   
+  >sum(1,2, 3, 19)  
+  >sum(1, 100)  `  
 ## ***2. *args và \**kwargs khác gì nhau? ***  
 - Khi gọi hàm trong python có 2 kiểu truyền tham số :  
     - Truyền tham số theo theo tên.  
